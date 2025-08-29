@@ -1,0 +1,23 @@
+# Bỏ file biên dịch Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Bỏ file log/test
+*.log
+
+# Bỏ file autograder sinh ra (nếu có)
+*.grades
+*.solution
+*.results
+*.out
+
+# Bỏ file hệ thống/IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Bỏ virtual env nếu có
+.venv/
+env/
